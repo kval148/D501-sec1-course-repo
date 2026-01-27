@@ -1,4 +1,4 @@
-name: ex3_multi_step_env
+name: exercise_3
 channels:
   - conda-forge
   - defaults
@@ -9,4 +9,4 @@ dependencies:
   - mlflow=3.2.0
   - hydra-core=1.3.2
   - pip:
-      - wandb==0.21.3
+      - wandb==0.24.0
