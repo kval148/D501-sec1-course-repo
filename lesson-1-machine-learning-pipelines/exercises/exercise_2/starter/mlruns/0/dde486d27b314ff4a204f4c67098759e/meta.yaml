@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kvaustin/course_repo/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/mlruns/0/dde486d27b314ff4a204f4c67098759e/artifacts
+end_time: 1769733269767
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: dde486d27b314ff4a204f4c67098759e
+run_name: sassy-snipe-819
+run_uuid: dde486d27b314ff4a204f4c67098759e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769733266775
+status: 4
+tags: []
+user_id: kvaustin

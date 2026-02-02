@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kvaustin/course_repo/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/mlruns/0/cb9d4083b0d944258dc02a899425e34b/artifacts
+end_time: 1769730895481
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cb9d4083b0d944258dc02a899425e34b
+run_name: lyrical-bass-656
+run_uuid: cb9d4083b0d944258dc02a899425e34b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769730862750
+status: 4
+tags: []
+user_id: kvaustin
