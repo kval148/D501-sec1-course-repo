@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kvaustin/course_repo/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/mlruns/0/b6a98246fa5d4c8f9c5a8960905a5e3e/artifacts
+end_time: 1769731554801
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b6a98246fa5d4c8f9c5a8960905a5e3e
+run_name: upbeat-boar-395
+run_uuid: b6a98246fa5d4c8f9c5a8960905a5e3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769731551811
+status: 4
+tags: []
+user_id: kvaustin

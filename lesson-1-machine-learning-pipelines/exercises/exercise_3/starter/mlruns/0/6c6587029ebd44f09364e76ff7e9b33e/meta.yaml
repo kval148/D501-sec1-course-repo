@@ -1,0 +1,14 @@
+artifact_uri: file:///home/kvaustin/course_repo/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/6c6587029ebd44f09364e76ff7e9b33e/artifacts
+end_time: 1770072594112
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6c6587029ebd44f09364e76ff7e9b33e
+run_name: respected-moth-936
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770072588576
+status: 3
+tags: []
+user_id: kvaustin

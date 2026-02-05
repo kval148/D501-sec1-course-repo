@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kvaustin/course_repo/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/451e68a36e1c4929b0ae6997c91c2d3e/artifacts
+end_time: 1770072302628
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 451e68a36e1c4929b0ae6997c91c2d3e
+run_name: skillful-turtle-241
+run_uuid: 451e68a36e1c4929b0ae6997c91c2d3e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770072142814
+status: 3
+tags: []
+user_id: kvaustin

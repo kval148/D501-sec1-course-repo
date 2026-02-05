@@ -15,7 +15,7 @@ def go(config: DictConfig):
     # You can get the path at the root of the MLflow project with this:
     root_path = hydra.utils.get_original_cwd()
 
-    _ = mlflow.run(
+    mlflow.run(
         os.path.join(root_path, "download_data"),
         "main",
         parameters={
@@ -23,6 +23,17 @@ def go(config: DictConfig):
             "artifact_name": "iris.csv",
             "artifact_type": "raw_data",
             "artifact_description": "Input data"
+        },
+    )
+
+    mlflow.run(
+        os.path.join(root_path, "process_data"),
+        "main",
+        parameters={
+            "input_artifact": "iris.csv:latest",
+            "artifact_name": "cleaned_data.csv",
+            "artifact_type": "raw_data",
+            "artifact_description": "Cleaned data"
         },
     )
 

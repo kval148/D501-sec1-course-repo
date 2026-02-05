@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kvaustin/course_repo/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/7b0537cca66245b0b58682bcd7703312/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7b0537cca66245b0b58682bcd7703312
+run_name: respected-roo-687
+run_uuid: 7b0537cca66245b0b58682bcd7703312
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770071620637
+status: 1
+tags: []
+user_id: kvaustin

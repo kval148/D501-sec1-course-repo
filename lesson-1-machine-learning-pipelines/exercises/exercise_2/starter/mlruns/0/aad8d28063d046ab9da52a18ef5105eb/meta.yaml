@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kvaustin/course_repo/lesson-1-machine-learning-pipelines/exercises/exercise_2/starter/mlruns/0/aad8d28063d046ab9da52a18ef5105eb/artifacts
+end_time: 1769733620181
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aad8d28063d046ab9da52a18ef5105eb
+run_name: adorable-cub-299
+run_uuid: aad8d28063d046ab9da52a18ef5105eb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1769733604472
+status: 3
+tags: []
+user_id: kvaustin
