@@ -1,0 +1,15 @@
+artifact_uri: file:///home/kvaustin/course_repo/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/63827fc17cdf4b4abd9056749229a4da/artifacts
+end_time: 1770072603535
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 63827fc17cdf4b4abd9056749229a4da
+run_name: bedecked-crab-576
+run_uuid: 63827fc17cdf4b4abd9056749229a4da
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770072585467
+status: 3
+tags: []
+user_id: kvaustin

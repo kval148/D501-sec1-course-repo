@@ -1,0 +1,14 @@
+artifact_uri: file:///home/kvaustin/course_repo/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/7f46a0ffb0d143a7b0373148f528379c/artifacts
+end_time: 1770072302346
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f46a0ffb0d143a7b0373148f528379c
+run_name: bold-robin-501
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770072245091
+status: 3
+tags: []
+user_id: kvaustin

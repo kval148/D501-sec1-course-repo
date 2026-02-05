@@ -1,0 +1,14 @@
+artifact_uri: file:///home/kvaustin/course_repo/lesson-1-machine-learning-pipelines/exercises/exercise_3/starter/mlruns/0/c420eb278bd54ed6b5a08e5ae02f24c4/artifacts
+end_time: 1770072245079
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c420eb278bd54ed6b5a08e5ae02f24c4
+run_name: loud-boar-693
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770072212455
+status: 3
+tags: []
+user_id: kvaustin
