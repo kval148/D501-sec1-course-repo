@@ -487,3 +487,6 @@ lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/outputs/
 lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/process_data/artifacts/
 lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/process_data/clean_data.csv
 lesson-1-machine-learning-pipelines/exercises/exercise_3/solution/process_data/wandb/
+
+# KVA Additions
+.idea/
