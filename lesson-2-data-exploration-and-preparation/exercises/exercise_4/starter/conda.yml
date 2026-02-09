@@ -12,4 +12,5 @@ dependencies:
   - ipywidgets=8.1.7
   - pip:
       - wandb==0.24.0
+      - setuptools==75.3.4
 
