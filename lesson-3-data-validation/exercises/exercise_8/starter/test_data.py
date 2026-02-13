@@ -45,7 +45,15 @@ def test_kolmogorov_smirnov(data):
 
         # Use the 2-sample KS test (scipy.stats.ks_2sample) on the column
         # col
-        ts, p_value = None, None # YOUR CODE HERE
+        ks_test = scipy.stats.ks_2samp(
+            sample1[col],
+            sample2[col],
+            alternative='two-sided'
+        )
+        ts, p_value = ks_test.statistic, ks_test.pvalue
 
-        # Add an assertion so that the test fails if p_value > alpha_prime
-        # YOUR CODE HERE
+        assert p_value >= alpha_prime, (f"Column {col} is significantly different "
+            "between both datasets.\n"
+            f"p_value: {p_value}\n"
+            f"alpha_prime: {alpha_prime}"
+        )        
