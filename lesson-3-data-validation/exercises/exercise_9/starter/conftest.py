@@ -9,6 +9,7 @@ run = wandb.init(project="exercise_9", job_type="data_tests")
 def pytest_addoption(parser):
     parser.addoption("--reference_artifact", action="store")
     parser.addoption("--sample_artifact", action="store")
+    parser.addoption("--ks_alpha", action="store")
 
     # COMPLETE HERE: add the option for ks_alpha
 
@@ -37,6 +38,12 @@ def data(request):
 
 @pytest.fixture(scope='session')
 def ks_alpha(request):
+
+    ks_alpha = request.config.option.ks_alpha
+    if ks_alpha is None:
+        pytest.fail("--ks_alpha missing on command line")
+    
+    return float(ks_alpha)
 
     # COMPLETE HERE: read the option ks_alpha from the command line,
     # and return it as a float
