@@ -2,11 +2,11 @@ main:
   project_name: exercise_12
   experiment_name: dev
 data:
-  train_data: "exercise_6/data_train.csv:latest"
+  train_data: exercise_6/data_train.csv:latest
 random_forest_pipeline:
   random_forest:
     n_estimators: 100
-    criterion: 'gini'
+    criterion: gini
     max_depth: 13
     min_samples_split: 2
     min_samples_leaf: 1
@@ -27,20 +27,19 @@ random_forest_pipeline:
     max_features: 10
   features:
     numerical:
-      - "danceability"
-      - "energy"
-      - "loudness"
-      - "speechiness"
-      - "acousticness"
-      - "instrumentalness"
-      - "liveness"
-      - "valence"
-      - "tempo"
-      - "duration_ms"
+    - danceability
+    - energy
+    - loudness
+    - speechiness
+    - acousticness
+    - instrumentalness
+    - liveness
+    - valence
+    - tempo
+    - duration_ms
     categorical:
-      - "time_signature"
-      - "key"
+    - time_signature
+    - key
     nlp:
-      - "text_feature"
-  # Set this to "null" if you do not want to export (useful for experimentation)
-  export_artifact: "model_export"
+    - text_feature
+  export_artifact: model_export
